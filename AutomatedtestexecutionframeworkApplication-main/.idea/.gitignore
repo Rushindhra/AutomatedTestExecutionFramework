@@ -1,0 +1,27 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Maven build
+/target/
+*.jar
+*.war
+*.ear
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+*.log
+/reports/
+/postman/
+
+# SQL scripts (optional)
+/sql/
+*.sql
+
+# PowerShell scripts (optional)
+*.ps1
