@@ -4,7 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="726d7e5f-c3b2-43b9-b1e7-891bf086ec3a" name="Changes" comment="" />
+    <list default="true" id="726d7e5f-c3b2-43b9-b1e7-891bf086ec3a" name="Changes" comment="git push -u origin main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/TestResultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/AutomatedTestExecutionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/AutomatedTestExecutionApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/adapter/SeleniumAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/adapter/SeleniumAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/config/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/config/MailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/AnalyticsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/AnalyticsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/LogsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/LogsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/ReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/dto/ScheduleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/dto/ScheduleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/dto/TestCaseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/dto/TestCaseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/entity/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/entity/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/entity/TestExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/entity/TestExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/entity/TestLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/entity/TestLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/entity/TestResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/entity/TestResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/repository/TestCaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/repository/TestCaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/repository/TestExecutionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/repository/TestExecutionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/repository/TestLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/repository/TestLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/service/ExecutionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/service/ExecutionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/service/ReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/service/TestIntegrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myways/automatedtestexecutionframework/service/TestIntegrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Automatedtestexecutionframework-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Automatedtestexecutionframework-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/AutomatedTestExecutionApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/AutomatedTestExecutionApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/adapter/ApiAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/adapter/ApiAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/adapter/SeleniumAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/adapter/SeleniumAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/config/CorsConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/config/CorsConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/config/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/config/MailConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/config/MailConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/AnalyticsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/AnalyticsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/LogsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/LogsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/NotificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/NotificationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/ReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/ReportController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/ScheduleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/ScheduleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/dto/EmailRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/dto/EmailRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/dto/ScheduleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/dto/ScheduleRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/dto/TestCaseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/dto/TestCaseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/entity/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/entity/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/entity/TestExecution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/entity/TestExecution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/entity/TestLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/entity/TestLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/entity/TestResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/entity/TestResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/repository/TestCaseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/repository/TestCaseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/repository/TestExecutionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/repository/TestExecutionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/repository/TestLogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/repository/TestLogRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/repository/TestResultRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/repository/TestResultRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/AnalyticsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/AnalyticsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/EmailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/ExecutionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/ExecutionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/ReportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/ReportService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/SchedulingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/SchedulingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/TestIntegrationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/service/TestIntegrationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/util/ReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/util/ReportGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/util/ScreenshotUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myways/automatedtestexecutionframework/util/ScreenshotUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +87,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rushindhra&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rushindhra/AutomatedTestExecutionFramework.git&quot;,
+    &quot;accountId&quot;: &quot;dbaeef16-f24c-43e2-bdaf-d6c5819c641c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -35,16 +116,22 @@
     "Maven.Automatedtestexecutionframework [clean].executor": "Run",
     "Maven.Automatedtestexecutionframework [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "R:/Coding/Java/AutomatedtestexecutionframeworkApplication-main",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "R:/Coding/Java/AutomatedtestexecutionframeworkApplication",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="R:\Coding\Java\AutomatedtestexecutionframeworkApplication-main\src\main\java\com\myways\automatedtestexecutionframework" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="AutomatedTestExecutionApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.myways.automatedtestexecutionframework.AutomatedTestExecutionApplication" />
@@ -69,6 +156,15 @@
       <option name="presentableId" value="Default" />
       <updated>1764000013902</updated>
     </task>
+    <task id="LOCAL-00001" summary="git remote add origin https://github.com/Rushindhra/AutomatedTestExecutionFramework.git">
+      <option name="closed" value="true" />
+      <created>1765385467811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765385467811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,10 +172,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git remote add origin https://github.com/Rushindhra/AutomatedTestExecutionFramework.git" />
+    <MESSAGE value="git push -u origin main" />
+    <option name="LAST_COMMIT_MESSAGE" value="git push -u origin main" />
   </component>
 </project>

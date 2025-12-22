@@ -1,5 +1,8 @@
 package com.myways.automatedtestexecutionframework.dto;
 
+import lombok.Data;
+
+@Data
 public class TestCaseDto {
     public String testName;
     public String testType; // API or WEB

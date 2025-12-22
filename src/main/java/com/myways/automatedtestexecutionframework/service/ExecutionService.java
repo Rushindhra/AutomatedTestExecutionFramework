@@ -20,34 +20,6 @@ public class ExecutionService {
     @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     private Executor testExecutor;
 
-//    public List<TestExecution> runSuiteParallel(List<Long> testCaseIds) throws InterruptedException {
-//        ExecutorService execService;
-//        if (testExecutor instanceof ExecutorService) execService = (ExecutorService) testExecutor;
-//        else execService = Executors.newFixedThreadPool(4);
-//        if (testCaseIds == null || testCaseIds.isEmpty()) {
-//            throw new IllegalArgumentException("Test Case IDs cannot be null or empty");
-//        }
-//        List<Future<TestExecution>> futures = new ArrayList<>();
-//        for (Long id: testCaseIds) {
-//            futures.add(((ExecutorService)execService).submit(() -> integrationService.executeTest(id)));
-//        }
-//
-//        List<TestExecution> results = new ArrayList<>();
-//        for (Future<TestExecution> f: futures) {
-//            try {
-//                results.add(f.get());
-//            } catch (ExecutionException e) {
-//                TestExecution te = new TestExecution();
-//                te.setStatus("FAILED");
-//                te.setTriggeredBy("system");
-//                execRepositorySaveFallback(te);
-//                results.add(te);
-//            }
-//        }
-//
-//        return results;
-//    }
-
 public List<TestExecution> runSuiteParallel(List<Long> testCaseIds) throws InterruptedException {
 
     System.out.println(" Incoming testCaseIds: " + testCaseIds);

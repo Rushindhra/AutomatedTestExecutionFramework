@@ -1,22 +1,13 @@
-
 package com.myways.automatedtestexecutionframework.dto;
-
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ScheduleRequest {
-    @Setter
     private String suiteName;
-    @Setter
     private String triggeredBy;
-    @Setter
     private String executionMode; // PARALLEL or SEQUENTIAL
 
     // accept both "tests" and "testCaseIds" from JSON
@@ -25,6 +16,16 @@ public class ScheduleRequest {
 
     public ScheduleRequest() {}
 
+    public String getSuiteName() { return suiteName; }
+    public void setSuiteName(String suiteName) { this.suiteName = suiteName; }
+
+    public String getTriggeredBy() { return triggeredBy; }
+    public void setTriggeredBy(String triggeredBy) { this.triggeredBy = triggeredBy; }
+
+    public String getExecutionMode() { return executionMode; }
+    public void setExecutionMode(String executionMode) { this.executionMode = executionMode; }
+
+    public List<Long> getTestCaseIds() { return testCaseIds; }
     public void setTestCaseIds(List<Long> testCaseIds) {
         this.testCaseIds = testCaseIds == null ? new ArrayList<>() : testCaseIds;
     }

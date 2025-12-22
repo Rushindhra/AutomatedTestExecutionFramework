@@ -24,10 +24,13 @@ public class TestController {
     @Autowired
     private TestExecutionRepository executionRepository;
 
+
+    /// service*********************************
     @PostMapping("/integrate")
     public ResponseEntity<TestCase> integrate(@RequestBody TestCaseDto dto) {
         TestCase tc = new TestCase();
         tc.setTestName(dto.testName);
+        tc.setTestType(dto.getClass().getTypeName());
         tc.setTestType(dto.testType);
         tc.setFramework(dto.framework);
         tc.setEndpoint(dto.endpoint);
@@ -43,6 +46,23 @@ public class TestController {
         return tc.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
+    @DeleteMapping("deleteExecution/{id}")
+    public ResponseEntity<?> deleteTestCase(@PathVariable("id") Long id) {
+        if (!testCaseRepository.existsById(id)) {
+            return ResponseEntity.notFound().build();
+        }
+        testCaseRepository.deleteById(id);
+        return ResponseEntity.ok("Test case deleted");
+    }
+
+
+
+
+
+
+
+    ////testCaseRepository*******************************************************************
+
     @GetMapping
     public List<TestCase> getAll() {
         return testCaseRepository.findAll();
@@ -54,8 +74,25 @@ public class TestController {
         return ResponseEntity.ok(exec);
     }
 
+
+
+    /// executionRepository****************************************************************
     @GetMapping("/executions/{id}")
-    public ResponseEntity<?> getExecution(@PathVariable Long id) {
+    public ResponseEntity<TestExecution> getExecution(@PathVariable("id") Long id) {
         return executionRepository.findById(id).map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+    }
+    @GetMapping("/getalltestexecution")
+    public List<TestExecution> getAllExecutions() {
+        return executionRepository.findAll();
+    }
+
+    // DELETE execution
+    @DeleteMapping("deleteExecutionexc/{id}")
+    public ResponseEntity<?> deleteExecutionexc(@PathVariable("id") Long id) {
+        if (!executionRepository.existsById(id)) {
+            return ResponseEntity.notFound().build();
+        }
+        executionRepository.deleteById(id);
+        return ResponseEntity.ok().body("Execution deleted");
     }
 }
